@@ -44,8 +44,8 @@ if ($data) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'guidemeofficial.00@gmail.com'; // Your SMTP username
-        $mail->Password   = 'mzos enrr gsrl bkju'; // Your SMTP password
+        $mail->Username   = ''; // Your SMTP username
+        $mail->Password   = ''; // Your SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
