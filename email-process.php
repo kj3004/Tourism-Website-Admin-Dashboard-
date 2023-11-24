@@ -34,7 +34,7 @@ if ($data) {
     $subject = $data['subject'];
 
     // Your admin email address
-    $admin_email = 'guidemeofficial.00@example.com';
+    $admin_email = ''; // Your admin email
 
     // Create a PHPMailer instance
     $mail = new PHPMailer(true);
